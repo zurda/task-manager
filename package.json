@@ -9,8 +9,10 @@
     "@emotion/styled": "^11.6.0",
     "@mdx-js/react": "^1.6.22",
     "@theme-ui/presets": "^0.13.1",
+    "dotenv-load": "^2.0.0",
     "next": "^12.0.8",
     "next-connect": "^0.11.0",
+    "next-env": "^1.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "theme-ui": "^0.13.1"
@@ -19,6 +21,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "vercel --prod"
   }
 }
